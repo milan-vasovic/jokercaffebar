@@ -20,7 +20,7 @@ async function getHomePage(req, res, next) {
             path: "/",
             pageTitle: 'Početna',
             pageDescription: 'Početna stranica Joker Caffe Bara, kratak pregled ponude i usluga.',
-            pageKeywords: 'Početna, Joker, Caffe, Bar, ponuda, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
+            pageKeyWords: 'Početna, Joker, Caffe, Bar, ponuda, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
             posts,
             services
         });
@@ -36,7 +36,7 @@ async function getBlogPage(req, res, next) {
             path: "/blog",
             pageTitle: 'Blog',
             pageDescription: 'Blog Joker Caffe Bara, najnovije vesti i dešavanja.',
-            pageKeywords: 'Blog, Joker, Caffe, Bar, vesti, dešavanja, novosti, događaji, slike, video, Novi Sad, Srbija',
+            pageKeyWords: 'Blog, Joker, Caffe, Bar, vesti, dešavanja, novosti, događaji, slike, video, Novi Sad, Srbija',
             posts
         });
     } catch (error) {
@@ -53,7 +53,7 @@ async function getPostPage(req, res, next){
             path: "/blog",
             pageTitle: post.title,
             pageDescription: post.shortDescription,
-            pageKeywords: post.keyWords,
+            pageKeyWords: post.keyWords,
             post
         });
     } catch (error) {
@@ -68,7 +68,7 @@ async function getServicesPage(req, res, next) {
             path: "/usluge",
             pageTitle: 'Usluge',
             pageDescription: 'Usluge Joker Caffe Bara, pogledajte šta sve nudimo.',
-            pageKeywords: 'Usluge, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
+            pageKeyWords: 'Usluge, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
             services
         });
     } catch (error) {
@@ -85,7 +85,7 @@ async function getServicePage(req, res, next){
             path: "/usluge",
             pageTitle: service.title,
             pageDescription: service.shortDescription,
-            pageKeywords: service.keyWords,
+            pageKeyWords: service.keyWords,
             service
         });
     } catch (error) {
@@ -98,7 +98,7 @@ async function getAboutPage(req, res, next) {
             path: "/o-nama",
             pageTitle: 'O Nama',
             pageDescription: 'Joker Caffe Bara, upoznajte nas, saznajte gde se nalazomo i šta sve nudimo.',
-            pageKeywords: 'O Nama, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija'
+            pageKeyWords: 'O Nama, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija'
         });
     } catch (error) {
         next(error);
@@ -209,7 +209,7 @@ async function postContact(req, res, next) {
             path: '/uspeh',
             pageTitle: 'Uspešno Ste Poslali Poruku',
             pageDescription: 'Uspešno Ste Poslali Poruku, hvala Vam što ste nas kontaktirali.',
-            pageKeywords: 'Uspešno Ste Poslali Poruku, Hvala Vam, Kontakt, Poruka, Joker, Caffe, Bar, Novi Sad, Srbija',
+            pageKeyWords: 'Uspešno Ste Poslali Poruku, Hvala Vam, Kontakt, Poruka, Joker, Caffe, Bar, Novi Sad, Srbija',
             message: "Uspešno ste poslali poruku, hvala Vam što ste nas kontaktirali.",
         });
     } catch (error) {

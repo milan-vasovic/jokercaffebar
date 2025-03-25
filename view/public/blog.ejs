@@ -1,0 +1,21 @@
+<%- include('../include/head.ejs') %>
+<%- include('../include/navigation.ejs') %>
+
+<main class="main__container">
+  <section class="container">
+    <h2 class="main__title">Najnoviji događaji i aktivnosti</h2>
+    <div class="grid grid-1 grid-3">
+      <% posts.forEach(post => { %>
+        <div class="card">
+          <img src="<%= post.image %>" alt="<%= post.title %>" class="width-100 margin-small" loading="lazy"/>
+          <h3><%= post.title %></h3>
+          <p><%= post.shortDescription %></p>
+          <br>
+          <a href="/blog/<%= post.title %>" class="btn-secondary">Pročitajte više</a>
+        </div>
+      <% }) %>
+    </div>
+  </section>
+</main>
+
+<%- include('../include/end.ejs') %>

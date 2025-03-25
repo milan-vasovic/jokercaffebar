@@ -1,0 +1,97 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Bilijar",
+        "image": "/image/bilijar.jpg",
+        "shortDescription": "5 profesionalnih stolova, turniri, rezervacije i trening paketi.",
+        "details": [
+          "🕐 Cena do 16h: <strong>5 RSD/min</strong> (~300 RSD/sat)",
+          "🕕 Cena posle 16h: <strong>10 RSD/min</strong> (~600 RSD/sat)",
+          "📅 Amaterski turniri: <strong>sreda (hendikep)</strong> i <strong>nedelja</strong> u 19h, kotizacija 600 RSD",
+          "📆 Mogućnost rezervacije stola",
+          "🎯 Uplata trening vremena na mesečnom nivou"
+        ],
+        "longDescription": "Uživaj u profesionalnom bilijaru sa 5 stolova, dnevnim turnirima i opcijama za trening. Idealno za amatere i napredne igrače koji traže kvalitetnu zabavu i takmičenje u srcu grada.",
+        "keyWords": ["bilijar", "turniri", "bilijarski stolovi", "trening bilijar", "rezervacija stola", "bilijar Novi Sad"]
+      },
+      {
+        "id": 2,
+        "title": "Pikado",
+        "image": "/image/pikado.jpeg",
+        "shortDescription": "Elektronski i steel pikado, turniri i treninzi.",
+        "details": [
+          "🎯 Cena: <strong>2 žetona za 50 RSD</strong>",
+          "🕹️ 3 elektronska pikada",
+          "🎯 2 profesionalne steel table",
+          "📅 Turnir subotom u parovima na elektronskom pikadu – 300 RSD po osobi",
+          "📆 Mogućnost uplate trening vremena za steel pikado"
+        ],
+        "longDescription": "Elektronski i steel pikado dostupni svima. Isprobaj 3 elektronska i 2 steel aparata, takmiči se u turnirima i treniraj veštine svaki dan uz simbolične cene.",
+        "keyWords": ["pikado", "pikado turnir", "elektronski pikado", "steel pikado", "pikado Novi Sad", "trening pikado"]
+      },
+      {
+        "id": 3,
+        "title": "Team Building",
+        "image": "/image/teambuilding_ketering.jpg",
+        "shortDescription": "Fleksibilni paketi za timsku zabavu i organizaciju događaja.",
+        "details": [
+          "🏢 Organizacija za firme raznih veličina",
+          "📦 3 paketa: Osnovni, Srednji i Veliki",
+          "🍸 Mogućnost izbacivanja žestokih pića",
+          "💳 Individualno plaćanje učesnika",
+          "<strong>Osnovni Paket (do 20 osoba)</strong>: aktivnosti + medalje i pehari + promo cene pića – <strong>300 €</strong>",
+          "<strong>Srednji Paket (20–40 osoba)</strong>: aktivnosti + medalje i pehari + promo cene pića – <strong>400 €</strong>",
+          "<strong>Veliki Paket (40+ osoba)</strong>: aktivnosti + medalje i pehari + promo cene pića (10% popusta) – <strong>500 €</strong>",
+          "<strong>Dodatne opcije:</strong>",
+          "🍽️ Ketering po dogovoru – zavisi od broja ljudi i vrste hrane",
+          "❓ Kviz znanja sa voditeljem",
+          "🎤 Karaoke (3h – 150 €, dodatni sat 50 €)",
+          "🏆 Pehari: 1 kom – 1500 RSD",
+          "🥇 Medalje: 1 kom – 500 RSD"
+        ],
+        "longDescription": "Kompletna ponuda team building događaja sa više paketa i dodatnim opcijama za firme svih veličina. Od takmičenja i nagrada do keteringa, kvizova i karaoke večeri – sve na jednom mestu.",
+        "keyWords": ["team building", "organizacija događaja", "paketi za firme", "ketering", "karaoke team building", "kviz za firme"]
+      },
+      {
+        "id": 4,
+        "title": "Karaoke Veče",
+        "image": "/image/karaoke.jpg",
+        "shortDescription": "Karaoke žurka uz DJ-a – svake srede od 21h.",
+        "details": [
+          "🎤 Karaoke veče svake <strong>srede od 21h</strong>",
+          "🎶 Uz DJ-a i više od 25.000 pesama",
+          "🥂 Opuštena atmosfera i dobro društvo"
+        ],
+        "longDescription": "Pridruži se opuštenom i veselom karaoke večeu svake srede uz DJ-a, 25.000+ pesama i sjajnu atmosferu za zabavu sa društvom.",
+        "keyWords": ["karaoke", "karaoke Novi Sad", "karaoke veče", "pevanje", "zabava uz DJ-a"]
+      },
+      {
+        "id": 5,
+        "title": "Beer Pong",
+        "image": "/image/beerpong.png",
+        "shortDescription": "Takmičenje u paru, petkom od 21h uz piće i smeh.",
+        "details": [
+          "🍻 Svaki <strong>petak od 21h</strong>",
+          "👫 Timsko takmičenje (parovi)",
+          "💰 Kotizacija: 1200 RSD po timu",
+          "🍺 U cenu uključeno: 1L piva ili drugo piće po dogovoru"
+        ],
+        "longDescription": "Beer pong noći petkom okupljaju mlade i studente u uzbudljivom takmičenju u parovima, sa pićem uključenim u cenu i opuštenom atmosferom.",
+        "keyWords": ["beer pong", "petak žurka", "beer pong turnir", "studentska zabava", "pivo i igre"]
+      },
+      {
+        "id": 6,
+        "title": "Društvene igre & Catan",
+        "image": "/image/drustvene_igre.jpg",
+        "shortDescription": "Ponedeljkom društvene igre, nedeljom Catan.",
+        "details": [
+          "🎲 <strong>Ponedeljkom od 19h</strong> – društvene igre iz asortimana",
+          "🌍 <strong>Nedeljom od 18h</strong> – večeri posvećene popularnoj igri <strong>Catan</strong>"
+        ],
+        "longDescription": "Igre za sve uzraste svakog ponedeljka i nedelje! Od klasika do Catan večeri, idealno za ljubitelje strategije i dobre zabave u društvu.",
+        "keyWords": ["društvene igre", "Catan", "igraonica", "Catan Novi Sad", "ponedeljak igre", "nedeljno igranje"]
+      }
+    ]
+  }
+  

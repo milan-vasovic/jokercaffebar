@@ -1,0 +1,27 @@
+<%- include('../include/head.ejs') %>
+<%- include('../include/navigation.ejs') %>
+
+<main class="main__container">
+  <section class="container breathe-in">
+    <div class="flex flex-column align-center justify-center">
+      <h1 class="main__title"><%= post.title %></h1>
+      <img src="<%= post.image %>" alt="<%= post.title %>" class="width-100 border-radius-normal margin-small image" />
+
+      <p class="margin-normal"><%= post.longDescription %></p>
+
+      <div class="post-content margin-big">
+        <% post.content.forEach(html => { %>
+          <div class="margin-normal"><%- html %></div>
+        <% }) %>
+      </div>
+
+      <p class="margin-normal">
+        <strong>Tagovi:</strong> <%= post.keyWords.join(", ") %>
+      </p>
+
+      <a href="/blog" class="btn-secondary">← Nazad na blog</a>
+    </div>
+  </section>
+</main>
+
+<%- include('../include/end.ejs') %>

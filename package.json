@@ -1,0 +1,27 @@
+{
+  "name": "jokercaffebar",
+  "version": "1.0.0",
+  "description": "Website for Joker Caffe Bar",
+  "license": "ISC",
+  "author": "Milan Vasovic, Arius Systems",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-server": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.0",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "nodemailer": "^6.10.0",
+    "sanitize-html": "^2.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

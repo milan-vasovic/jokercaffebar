@@ -1,0 +1,22 @@
+<%- include('../include/head.ejs') %>
+<%- include('../include/navigation.ejs') %>
+
+<main class="main__container">
+  <section class="container breathe-in">
+    <div class="flex flex-column align-center justify-center">
+      <h1 class="main__title"><%= service.title %></h1>
+      <img src="<%= service.image %>" alt="<%= service.title %>" class="image width-100 border-radius-normal margin-small" />
+      <p class="margin-small"><%= service.longDescription %></p>
+
+      <ul class="margin-small">
+        <% service.details.forEach(detail => { %>
+          <li><%- detail %></li>
+        <% }) %>
+      </ul>
+
+      <a href="/usluge" class="btn-secondary">← Nazad na sve usluge</a>
+    </div>
+  </section>
+</main>
+
+<%- include('../include/end.ejs') %>

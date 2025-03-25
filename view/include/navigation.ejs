@@ -1,0 +1,50 @@
+<!-- Navigation -->
+</head>
+<body>
+  <div class="backdrop"></div>
+  <header class="main-header">
+    <!-- Dugme za otvaranje mobilnog menija -->
+    <button class="btn-primary" id="side-menu-toggle">Meni</button>
+
+    <!-- Desktop navigacija -->
+    <nav class="main-header__nav">
+      <ul class="main-header__item-list">
+        <li class="main-header__item">
+          <a class="<%= path === '/' ? 'active' : '' %>" href="/">Početna</a>
+        </li>
+        <li class="main-header__item">
+          <a class="<%= path === '/usluge' ? 'active' : '' %>" href="/usluge">Usluge</a>
+        </li>
+        <li class="main-header__item">
+          <a class="<%= path === '/blog' ? 'active' : '' %>" href="/blog">Blog</a>
+        </li>
+        <li class="main-header__item">
+          <a class="<%= path === '/o-nama' ? 'active' : '' %>" href="/o-nama">O Nama</a>
+        </li>
+        <li class="main-header__item">
+          <a class="<%= path === '/kontakt' ? 'active' : '' %>" href="/kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Mobilna navigacija -->
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__item-list">
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/' ? 'active' : '' %>" href="/">Početna</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/usluge' ? 'active' : '' %>" href="/usluge">Usluge</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/blog' ? 'active' : '' %>" href="/blog">Blog</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/o-nama' ? 'active' : '' %>" href="/o-nama">O Nama</a>
+        </li>
+        <li class="mobile-nav__item">
+            <a class="<%= path === '/kontakt' ? 'active' : '' %>" href="/kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>

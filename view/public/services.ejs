@@ -1,0 +1,21 @@
+<%- include('../include/head.ejs') %>
+<%- include('../include/navigation.ejs') %>
+
+<main class="main__container">
+  <section class="container">
+    <h1 class="main__title"><%= pageTitle %></h1>
+    <div class="grid grid-1 grid-3">
+        <% services.forEach(service => { %>
+            <div class="card">
+              <img src="<%= service.image %>" alt="<%= service.title %>" class="width-100 margin-small border-radius-normal" loading="lazy" />
+              <h3><%= service.title %></h3>
+              <p><%= service.shortDescription %></p>
+              <br>
+              <a href="/usluge/<%= service.title %>" class="btn-secondary">Saznajte više</a>
+            </div>
+          <% }) %>
+    </div>
+  </section>
+</main>
+
+<%- include('../include/end.ejs') %>

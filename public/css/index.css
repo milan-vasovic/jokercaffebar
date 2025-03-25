@@ -1,0 +1,127 @@
+/* Root variabile za lakše održavanje */
+:root {
+    --primary-color: #1d1d1d;
+    --secondary-color: #ffcc00;
+    --text-color: #fff;
+    --bg-color: #252525;
+    --btn-bg: #ffcc00;
+    --btn-hover: #ffdd44;
+}
+
+/* Globalni stilovi */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* HERO sekcija */
+.hero {
+    background: url('images/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--btn-bg);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: var(--btn-hover);
+}
+
+/* Ponuda sekcija */
+.ponuda {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.ponuda h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.ponuda-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ponuda-item {
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.ponuda-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ponuda-item h3 {
+    margin: 15px 0 10px;
+}
+
+/* Kontakt sekcija */
+.kontakt {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.kontakt h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.kontakt p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .ponuda-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ponuda-item {
+        width: 100%;
+        max-width: 350px;
+    }
+}

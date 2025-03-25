@@ -1,0 +1,273 @@
+/* Ažurirani CSS za Joker Café Landing Page – tamna tema, čista, profesionalna i zabavna */
+
+:root {
+  --primary-color: #a81da1; /* #a81da1 */
+  --secondary-color: #121212; /* Skoro crna – za čistu tamnu pozadinu */
+  --accent-color: #20c52e; /* Svetla zelena – za akcente i dugmad */
+  --accent-hover-color: rgb(14, 129, 20); /* Tamnija nijansa akcente boje */
+  --title-color: #ffffff; /* Naslovi beli – kontrast na tamnoj pozadini */
+  --text-color: #e0e0e0; /* Svetlo siva za tekst – čitljivo ali nežno */
+  --neutral-color: #1e1e1e; /* Neutralna tamna pozadina kartica */
+  --danger-color: #e53935;
+  --border-color: #333333;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --hover-color: #2c2c2c;
+
+  --font-family: "Verdana", Helvetica, Arial, sans-serif;
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-extra-large: 2rem;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --padding-small: 0.3rem;
+  --padding-normal: 1rem;
+  --padding-big: 1.5rem;
+  --margin-small: 0.5rem;
+  --margin-normal: 1rem;
+  --margin-big: 1.5rem;
+
+  --border-radius-normal: 8px;
+  --grid-gap-medium: 1rem;
+  --header-footer-height: 7vh;
+  --transition-fast: 0.2s ease;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  margin-bottom: var(--margin-normal);
+}
+
+h1 {
+  font-size: var(--font-size-extra-large);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--font-size-large);
+  text-align: center;
+}
+
+h3 {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+}
+
+main {
+  background: url("../image/joker_background.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  main {
+    background-size: cover;
+    background-position: center top;
+  }
+}
+
+.main__container {
+  padding: var(--padding-big) var(--padding-normal);
+  min-height: 86.85vh;
+}
+
+.main__title {
+  text-align: center;
+  margin-bottom: var(--margin-big);
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.container {
+  background-color: #000000c4;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--padding-normal);
+  animation: breathe 1.5s ease-in-out;
+}
+
+.container ul {
+  padding: var(--padding-normal);
+}
+
+/* HERO */
+.main__hero {
+  gap: var(--grid-gap-medium);
+  margin-bottom: var(--margin-big);
+}
+
+.main-hero__title {
+  margin-bottom: var(--margin-small);
+}
+
+.main__link {
+  color: var(--accent-color);
+}
+
+.main__link:hover {
+  color: var(--accent-hover-color);
+}
+
+/* Layouts */
+.flex {
+  display: flex;
+  gap: var(--grid-gap-medium);
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.felx-column-row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: var(--grid-gap-medium);
+}
+
+.grid-1 {
+  grid-template-columns: 1fr;
+}
+
+.left__container-50,
+.right__container-50 {
+  width: 100%;
+}
+
+.image {
+  max-width: 500px;
+  max-height: 700px;
+}
+@media (min-width: 768px) {
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .felx-column-row {
+    flex-direction: row;
+    gap: var(--grid-gap-medium);
+  }
+
+  .left__container-50,
+  .right__container-50 {
+    width: 50%;
+  }
+}
+
+/* Buttons */
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: var(--padding-small) var(--padding-big);
+  border-radius: var(--border-radius-normal);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  text-decoration: none;
+  transition: background-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  color: var(--black-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-hover-color);
+  color: var(--white-color);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-color);
+  color: var(--black-color);
+}
+
+/* Cards */
+.card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--neutral-color);
+  padding: var(--padding-normal);
+  border-radius: var(--border-radius-normal);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  height: 300px;
+  object-fit: contain;
+}
+
+/* Spacing helpers */
+.margin-small {
+  margin-bottom: var(--margin-small);
+}
+.margin-normal {
+  margin-bottom: var(--margin-normal);
+}
+.margin-big {
+  margin-bottom: var(--margin-big);
+}
+
+.width-100 {
+  width: 100%;
+}

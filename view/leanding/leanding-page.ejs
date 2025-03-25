@@ -1,0 +1,66 @@
+<%- include('../include/head.ejs') %>
+<%- include('../include/navigation.ejs') %>
+
+<main class="main__container">
+    <!-- HERO SECTION -->
+    <section class="felx-column-row container">
+        <div class="flex flex-column align-center justify-center">
+          <h1 class="main-hero__title">🎱 Joker Caffe Bar – Gde ekipa pobeđuje! 🍻</h1>
+          <p class="margin-small">Bilijar, pikado, igre i dobra ekipa – na pravom si mestu!</p>
+          <a href="/preuzmite-usluge" class="btn-primary">Preuzmite naše usluge</a>
+          <br>
+        </div>
+        <div>
+            <img src="/image/joker_caffe_bar.jpg" alt="Joker Café Hero" class="width-100" loading="lazy" />
+        </div>
+    </section>
+
+    <!-- USLUGE SECTION -->
+    <section id="usluge" class="container">
+      <h1 class="main__title">Naše usluge</h1>
+      <div class="grid grid-1 grid-3">
+        <% services.forEach(service => { %>
+            <div class="card">
+              <img src="<%= service.image %>" alt="<%= service.title %>" class="width-100 margin-small border-radius-normal" loading="lazy" />
+              <h3><%= service.title %></h3>
+              <p><%= service.shortDescription %></p>
+              <br>
+              <a href="/usluge/<%= service.title %>" class="btn-secondary">Saznajte više</a>
+            </div>
+          <% }) %>
+      </div>
+    </section>
+
+    <!-- BLOG POSTOVI SECTION -->
+    <section class="container">
+      <h1 class="main__title">Najnoviji blog postovi</h1>
+      <div class="grid grid-1 grid-3">
+        <% posts.forEach(post => { %>
+            <div class="card">
+              <img src="<%= post.image %>" alt="<%= post.title %>" class="width-100 margin-small" loading="lazy" />
+              <h3><%= post.title %></h3>
+              <p><%= post.shortDescription %></p>
+              <br>
+              <a href="/blog/<%= post.title %>" class="btn-secondary">Pročitajte više</a>
+            </div>
+          <% }) %>
+      </div>
+    </section>
+
+    <!-- O NAMA SECTION -->
+    <section class="container">
+      <h1 class="main__title">Upoznajte nas</h1>
+      <div class="felx-column-row">
+        <div class="left__container-50">
+          <img src="/image/o_nama.JPG" alt="O nama" class="width-100 border-radius-normal" loading="lazy" />
+        </div>
+        <div class="right__container-50">
+          <p>Bilo da si raspoložen za bilijar, pikado, karaoke ili opušteno druženje uz piće – kod nas te čeka ekipa i atmosfera za pamćenje!</p>
+          <p>📍 Svrati do nas ili pogledaj naše usluge – čeka te odlična zabava! 🎉</p>
+          <br>
+          <a href="/o-nama" class="btn-secondary">Saznajte više</a>
+        </div>
+      </div>
+    </section>
+  </main>
+<%- include('../include/end.ejs') %>

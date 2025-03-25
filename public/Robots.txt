@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /blog
+Allow: /kontakt
+Allow: /usluge
+Allow: /uslovi-koriscenja
+Allow: /politika-privatnosti
+Allow: /o-nama
+
+
+# Link ka sitemap-u
+Sitemap: https://jokercaffebar.com/sitemap.xml

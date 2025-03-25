@@ -1,0 +1,68 @@
+<%- include('../include/head.ejs') %>
+<link rel="stylesheet" href="/css/form.css">
+<link rel="stylesheet" href="/css/contact.css">
+<%- include('../include/navigation.ejs') %>
+
+<main class="main__container">
+    <div class="flex flex-column container width-100">
+        <h1 class="main__title"><%= pageTitle %></h1>
+        <h3>Za sve informacije, pitanja i nedoumice</h3>
+        <p>Slobodno nas kontaktirajte, postavite pitanja, potrudićemo se da vam odgovorimo u najkraćem mogućem roku.</p>
+        <p>Možete nas dobiti putem forme ili telefona:</p>
+        <h4>+381 65 977 4000</h4>
+        <!-- Container za formu i mapu -->
+        <div class="contact__content">
+            <!-- Kontakt forma -->
+            <form class="main-form contact__form" action="/kontakt" method="post">
+                <div class="main-form__group">
+                    <label for="nameInput">Ime:</label>
+                    <input class="main-form__input" id="nameInput" name="name" type="text" required value="<%= existingData ? existingData.name : '' %>">
+                </div>
+                <div class="main-form__group">
+                    <label for="emailInput">Email:</label>
+                    <input class="main-form__input" id="emailInput" type="email" name="email" required value="<%= existingData ? existingData.email : '' %>">
+                </div>
+                <div class="main-form__group">
+                    <label for="titleInput">Naslov:</label>
+                    <select class="main-form__select" name="title" id="titleInput">
+                        <option value="Informacije" selected>Informacije</option>
+                        <option value="Pitanje">Pitanja</option>
+                        <option value="Partnerstvo">Partnerstvo</option>
+                    </select>
+                </div>
+                <div class="main-form__group">
+                    <label for="phoneInput">Telefon: (opcionalno)</label>
+                    <input class="main-form__input" id="phoneInput" type="tel" name="phone" value="<%= existingData ? existingData.phone : '' %>">
+                </div>
+                <div class="main-form__group">
+                    <label for="msgInput">Poruka:</label>
+                    <textarea class="main-form__textarea" id="msgInput" name="message" required><%= existingData ? existingData.message : '' %></textarea>
+                </div>
+                <div class="main-form__group">
+                    <label class="main-form__label" for="acceptance">Saglasnost:</label>
+                    <p>
+                        Prihvatate <a class="main__link" href="/uslovi-koriscenja">Uslove Korišćenja</a> i <a class="main__link" href="/politika-privatnosti">Politiku Privatnosti</a>
+                    </p>
+                    <input class="main-form__input" id="acceptance" name="acceptance" type="checkbox" required>
+                </div>
+                <input name="honeypot" type="hidden">
+                <button class="btn-primary" type="submit">Pošaljite</button>
+                <% if (errorMessage) { %>
+                    <p class="user-message--error"><%= errorMessage %></p>
+                <% } %>
+            </form>
+            <!-- Google mapa -->
+            <div class="contact__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11234.988069199106!2d19.825059624268505!3d45.25290824294459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b101331555555%3A0x20b7a77d008ee4dd!2sMeridian!5e0!3m2!1sen!2srs!4v1742481349183!5m2!1sen!2srs" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include('../include/end.ejs') %>

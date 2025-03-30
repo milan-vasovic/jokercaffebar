@@ -23,6 +23,7 @@ app.use(
       directives: {
         "default-src": ["'self'"],
         "script-src": ["'self'", "https://www.instagram.com/"],
+        "style-src": ["'self'"],
         "frame-src": ["'self'", "https://www.google.com", "https://maps.google.com", "https://www.instagram.com/"],
       },
     },

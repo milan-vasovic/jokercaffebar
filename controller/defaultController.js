@@ -1,7 +1,7 @@
 import { validationResult } from 'express-validator';
 import { fileURLToPath } from 'url';
 import { join, dirname } from 'path';
-
+import fetch from 'node-fetch';
 import fs from "fs";
 import sanitizeHtml from 'sanitize-html';
 import PostService from '../service/postService.js';
@@ -16,13 +16,22 @@ async function getHomePage(req, res, next) {
         const posts = await PostService.findSomePosts();
         const services = await ServiceService.findServices();
 
+        const sheetId = "1k2RhvL3Pwc5Zid3sARQ54zjQrm-fJfH2ag_jF6EAJQ4";
+        const sheetName = "Igraci";
+        const pageUrl = req.protocol + '://' + req.get('host') + req.originalUrl
+        const response = await fetch(`https://opensheet.elk.sh/${sheetId}/${sheetName}`);
+        const players = await response.json();
+
         return res.status(200).render('leanding/leanding-page', {
             path: "/",
             pageTitle: 'Početna',
             pageDescription: 'Početna stranica Joker Caffe Bara, kratak pregled ponude i usluga.',
             pageKeyWords: 'Početna, Joker, Caffe, Bar, ponuda, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
+            pageUrl: pageUrl,
+            pageImage: pageUrl + '/image/joker_caffe_bar.jpg',
             posts,
-            services
+            services,
+            players
         });
     } catch (error) {
         next(error);
@@ -37,6 +46,8 @@ async function getBlogPage(req, res, next) {
             pageTitle: 'Blog',
             pageDescription: 'Blog Joker Caffe Bara, najnovije vesti i dešavanja.',
             pageKeyWords: 'Blog, Joker, Caffe, Bar, vesti, dešavanja, novosti, događaji, slike, video, Novi Sad, Srbija',
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
             posts
         });
     } catch (error) {
@@ -54,6 +65,8 @@ async function getPostPage(req, res, next){
             pageTitle: post.title,
             pageDescription: post.shortDescription,
             pageKeyWords: post.keyWords,
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
             post
         });
     } catch (error) {
@@ -69,6 +82,8 @@ async function getServicesPage(req, res, next) {
             pageTitle: 'Usluge',
             pageDescription: 'Usluge Joker Caffe Bara, pogledajte šta sve nudimo.',
             pageKeyWords: 'Usluge, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
             services
         });
     } catch (error) {
@@ -86,6 +101,8 @@ async function getServicePage(req, res, next){
             pageTitle: service.title,
             pageDescription: service.shortDescription,
             pageKeyWords: service.keyWords,
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
             service
         });
     } catch (error) {
@@ -98,7 +115,9 @@ async function getAboutPage(req, res, next) {
             path: "/o-nama",
             pageTitle: 'O Nama',
             pageDescription: 'Joker Caffe Bara, upoznajte nas, saznajte gde se nalazomo i šta sve nudimo.',
-            pageKeyWords: 'O Nama, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija'
+            pageKeyWords: 'O Nama, Joker, Caffe, Bar, usluge, biljar, pikado, teambuilding, proslave, eventi, zabava, druženje, kafić, kafa, piće, alkohol, kokteli, Novi Sad, Srbija',
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
         });
     } catch (error) {
         next(error);
@@ -112,6 +131,8 @@ async function getPrivacyPage(req, res, next) {
             pageTitle: "Politika Privatnosti",
             pageDescription: "Naša politika privatnosti, sve na jednom mestu, sve potrebne informacije šta i kako prikupljamo, u koju svrhu i vaša prava",
             pageKeyWords: "Politika Privatnosti, Informacije, Prava",
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
         })
     } catch (error) {
         next(error);
@@ -125,6 +146,8 @@ async function getTermsPage(req, res, next) {
             pageTitle: "Uslovi Koriscenja",
             pageDescription: "Naši uslovi korišćenja, pravila, odgovornost, prihvatnaje, saglasnost, mere i ostale inforamcije.",
             pageKeyWords: "Uslovi Korišćenja, Pravila, Informacije, Mere, Obaveze",
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
         });
     } catch (error) {
         next(error);
@@ -164,6 +187,8 @@ async function getContactPage(req, res, next) {
             pageKeyWords: "Kontakt, Pitanja, Kontaktirajte Nas, Pozovite",
             errorMessage: "",
             existingData: {},
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
         });
     } catch (error) {
         next(error);
@@ -194,6 +219,8 @@ async function postContact(req, res, next) {
                     phone: sanitizedPhone,
                     message: sanitizedMessage,
                 },
+                pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+                pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
             });
         }
 
@@ -211,6 +238,8 @@ async function postContact(req, res, next) {
             pageDescription: 'Uspešno Ste Poslali Poruku, hvala Vam što ste nas kontaktirali.',
             pageKeyWords: 'Uspešno Ste Poslali Poruku, Hvala Vam, Kontakt, Poruka, Joker, Caffe, Bar, Novi Sad, Srbija',
             message: "Uspešno ste poslali poruku, hvala Vam što ste nas kontaktirali.",
+            pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+            pageImage: req.protocol + '://' + req.get('host') + req.originalUrl + '/image/joker_caffe_bar.jpg',
         });
     } catch (error) {
         next(error);

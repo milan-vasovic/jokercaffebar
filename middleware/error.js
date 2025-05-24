@@ -7,6 +7,8 @@ const ErrorHandler = (err, req, res, next) => {
         pageTitle: `Greška ${statusCode}`,
         pageDescription: "Došlo je do greške na serveru.",
         pageKeyWords: "Greška, Server, Problem, Error",
+        pageUrl: req.protocol + '://' + req.get('host') + req.originalUrl,
+        pageImage: req.protocol + '://' + req.get('host') + '/image/logo.png',
         statusCode,
         errorMsg,
         errorDetails: process.env.NODE_ENV === 'development' ? err.stack : null,

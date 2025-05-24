@@ -22,13 +22,30 @@ app.use(
     contentSecurityPolicy: {
       directives: {
         "default-src": ["'self'"],
-        "script-src": ["'self'", "https://www.instagram.com/"],
-        "style-src": ["'self'"],
-        "frame-src": ["'self'", "https://www.google.com", "https://maps.google.com", "https://www.instagram.com/"],
+        "script-src": ["'self'", "https://www.instagram.com"],
+        "style-src": [
+          "'self'",
+          "https://fonts.googleapis.com"
+        ],
+        "font-src": [
+          "'self'",
+          "https://fonts.gstatic.com"
+        ],
+        "frame-src": [
+          "'self'",
+          "https://www.google.com",
+          "https://maps.google.com",
+          "https://www.instagram.com"
+        ],
+        "connect-src": [
+          "'self'",
+          "https://opensheet.elk.sh"
+        ]
       },
     },
   })
 );
+
 app.use(compression());
 
 app.use(json());
@@ -50,6 +67,6 @@ app.use((req, res, next) => {
 
 app.use(ErrorMiddleware);
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(`Server is running on port ${process.env.PORT || 3000}`);
+app.listen(process.env.PORT || 4000, () => {
+  console.log(`Server is running on port ${process.env.PORT || 4000}`);
 });

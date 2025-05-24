@@ -15,6 +15,68 @@
         </div>
     </section>
 
+    <section class="container">
+      <h1>Joker Bilijar Turnir:</h1>
+    
+      <div class="tournament-info">
+        <div class="tournament-info__content">
+          <div>
+            <h2 class="main__title">VAŽNO</h2>
+            <p>Molimo sve koji su se prijavili da provere da li su na spisku, ako nisu da nas kontaktiraju!</p>
+            <p>U slučaju potrebe za odjavom to može da se uradi do <strong>četvrtka 22.05.2025 do 20h </strong></p>
+          </div>
+          <h2 class="main__title">Informacije:</h2>
+          <ul>
+            <li><strong>Datum:</strong> 24.05.2025</li>
+            <li><strong>Početak:</strong> 10:00 h</li>
+            <li><strong>Adresa:</strong> Sutjeska 2, Spens, Novi Sad</li>
+            <li><strong>Disciplina:</strong> 9 Ball</li>
+            <li><strong>Broj igrača:</strong> max 48</li>
+            <li><strong>Kotizacija:</strong> 2000 din</li>
+            <li><strong>Redovno kolo:</strong> 6 dobijenih</li>
+            <li><strong>Repasaž:</strong> 5 dobijenih</li>
+          </ul>
+    
+          <h2>Nagrade:</h2>
+          <ul>
+            <li>I mesto: 20 000 din</li>
+            <li>II mesto: 10 000 din</li>
+            <li>III mesto: 7 000 din</li>
+            <li>V–VIII mesta: 4 000 din</li>
+          </ul>
+        </div>
+        <a href="https://forms.gle/qRunvU198nj6BWqt5" class="btn-primary" target="_blank" rel="noopener noreferrer">Prijava</a>
+        <div class="tournament-info__image">
+          <img src="/image/joker_biljar_turnir.jpg" alt="Turnir Joker Bilijar">
+        </div>
+      </div>
+    
+      <table>
+        <caption>Prijavljeni Igrači</caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ime</th>
+            <th>Prezime</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% players.forEach((player, index) => { %>
+            <tr>
+              <td><%= index + 1 %></td>
+              <td><%= player.Ime %></td>
+              <td><%= player.Prezime %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Ukupno prijavljenih igrača: <%= players.length %> / 48 max</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>    
+
     <!-- USLUGE SECTION -->
     <section id="usluge" class="container">
       <h1 class="main__title">Naše usluge</h1>

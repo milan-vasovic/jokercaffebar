@@ -14,7 +14,7 @@
   --black-color: #000000;
   --hover-color: #2c2c2c;
 
-  --font-family: "Verdana", Helvetica, Arial, sans-serif;
+  --font-family: "Georama", sans-serif;
   --font-size-base: 1rem;
   --font-size-large: 1.25rem;
   --font-size-extra-large: 2rem;
@@ -58,6 +58,7 @@ img {
 h1,
 h2,
 h3 {
+  font-family: "Texturina", serif;
   color: var(--title-color);
   margin-bottom: var(--margin-normal);
 }
@@ -270,4 +271,82 @@ main {
 
 .width-100 {
   width: 100%;
+}
+
+/* Tabela – stilizacija */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--margin-big);
+  background-color: var(--neutral-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+caption {
+  caption-side: top;
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  padding: var(--padding-small);
+  color: var(--title-color);
+}
+
+thead {
+  background-color: var(--primary-color);
+}
+
+thead th {
+  padding: var(--padding-small);
+  color: var(--white-color);
+  text-align: left;
+}
+
+tbody td, tfoot td {
+  padding: var(--padding-small);
+  border-top: 1px solid var(--border-color);
+}
+
+tfoot td {
+  font-weight: var(--font-weight-bold);
+  text-align: right;
+  background-color: var(--hover-color);
+  color: var(--title-color);
+}
+
+/* Turnir info layout */
+.tournament-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--margin-normal);
+  margin-bottom: var(--margin-big);
+}
+
+.tournament-info__content {
+  flex: 1;
+}
+
+.tournament-info__image {
+  flex: 1;
+  max-width: 100%;
+  text-align: center;
+}
+
+.tournament-info__image img {
+  max-width: 100%;
+  border-radius: var(--border-radius-normal);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive layout – desktop */
+@media (min-width: 768px) {
+  .tournament-info {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .tournament-info__content,
+  .tournament-info__image {
+    width: 50%;
+  }
 }

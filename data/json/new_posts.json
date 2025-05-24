@@ -1,0 +1,447 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Amaterski turnir u bilijaru – Nine Ball izazov svake srede i nedelje!",
+        "shortDescription": "Turniri u 9ci svake srede (hendikep) i nedelje od 19h sa nagradama i sjajnim druženjem.",
+        "longDescription": "Pridruži se našem amaterskom turniru u bilijaru (Nine Ball – 9ka) svakog utorka i nedelje od 19h! Sreda je rezervisana za hendikep mečeve. Očekuju te sjajno društvo, takmičenje i novčane nagrade!",
+        "image": "/image/bilijar_turnir.jpg",
+        "keyWords": [
+          "bilijar",
+          "nine ball",
+          "turnir",
+          "druženje",
+          "hendikep",
+          "nagrade"
+        ],
+        "content": [
+          "<h2>Amaterski turnir u 9ci – svake srede i nedelje od 19h</h2>",
+          "<p>🎱 Pridruži se našem amaterskom turniru u bilijaru u disciplini <strong>9-Ball</strong>, koji se održava <strong>svake srede i nedelje od 19h</strong>.</p>",
+          "<p>Sreda je rezervisana za <strong>hendikep sistem</strong> – napredniji igrači daju fore početnicima, čineći turnir pristupačnim i zabavnim za sve!</p>",
+          "<ul><li>💰 Kotizacija: 600 RSD</li><li>🏆 Novčane nagrade za prva tri mesta</li><li>🤝 Sjajna atmosfera i druženje</li></ul>",
+          "<p>Dođi da pokažeš veštine, stekneš nova poznanstva i uživaš u dobroj partiji bilijara!</p>"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Amaterski turnir u pikadu za parove – svake subote od 20h",
+        "shortDescription": "Subotom od 20h – pikado u parovima, uz nagrade, piće i sjajnu atmosferu!",
+        "longDescription": "Turnir u pikadu za parove svake subote u disciplinama 501 Double Out i Cricket Cut Throat. Kotizacija 300 din po osobi. Obezbeđene nagrade i često humanitarni karakter.",
+        "image": "/image/pikado_turnir.jpg",
+        "keyWords": [
+          "pikado",
+          "turnir",
+          "parovi",
+          "501",
+          "cricket",
+          "druženje",
+          "nagrade",
+          "humanitarno"
+        ],
+        "content": [
+          "<h2>Turnir u pikadu za parove – svake subote u 20h</h2>",
+          "<p>🎯 Svake <strong>subote od 20h</strong> održava se amaterski turnir u pikadu u disciplinama <strong>501 Double Out</strong> i <strong>Cricket Cut Throat</strong>.</p>",
+          "<ul><li>👥 Igra u parovima</li><li>💸 Kotizacija: 300 RSD po osobi</li><li>🏆 Nagrade: novčane, trofeji, vaučeri</li><li>💖 Često i humanitarnog karaktera</li></ul>",
+          "<p>Atmosfera je sjajna – puno smeha, timskog duha i uživanja uz piće!</p>"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Karaoke veče uz DJ-a – svake srede od 21h",
+        "shortDescription": "Uzmi mikrofon i zablistaj – karaoke večeri svake srede uz DJ-a i opušteno društvo!",
+        "longDescription": "Svake srede od 21h – karaoke žurka sa DJ-em, više od 25.000 pesama, piće, smeh i sjajna atmosfera!",
+        "image": "/image/karaoke.jpg",
+        "keyWords": [
+          "karaoke",
+          "muzika",
+          "druženje",
+          "DJ",
+          "sreda",
+          "zabava"
+        ],
+        "content": [
+          "<h2>Karaoke Veče – Svake srede od 21h</h2>",
+          "<p>🎤 Uzmi mikrofon i zablistaj na <strong>karaoke večeri</strong> uz DJ-a – svake <strong>srede od 21h</strong>.</p>",
+          "<ul><li>🎶 Preko 25.000 pesama</li><li>🥂 Opuštena atmosfera</li><li>😂 Dobar smeh i zabava zagarantovani</li></ul>",
+          "<p>Dođi sa društvom i osvoji publiku pesmom i šarmom!</p>"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Beer Pong – svaki petak od 21h",
+        "shortDescription": "Petak veče uz pivo, timski duh i smeh – prijavi se na naš Beer Pong turnir!",
+        "longDescription": "Svaki petak od 21h igra se Beer Pong u timovima. Kotizacija 1000 din po timu, uključuje 2l piva. Sjajna zabava za studente i mlade!",
+        "image": "/image/beerpong_vece.png",
+        "keyWords": [
+          "beer pong",
+          "petak",
+          "timovi",
+          "pivo",
+          "studenti",
+          "zabava"
+        ],
+        "content": [
+          "<h2>Beer Pong – Svakog petka od 21h</h2>",
+          "<p>🍻 Petak veče je rezervisan za <strong>Beer Pong turnir</strong> – okupljanje timova i puno smeha!</p>",
+          "<ul><li>👫 Timska igra</li><li>💰 Kotizacija: 1200 RSD po timu</li><li>🍺 Uključenih 1L piva po timu (ili zamena po dogovoru)</li></ul>",
+          "<p>Idealan događaj za studente, mlade i sve željne dobre zabave!</p>"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Veče društvenih igara – svakog ponedeljka od 19h",
+        "shortDescription": "Opušteno veče uz društvene igre iz našeg bogatog asortimana, svakog ponedeljka od 19h.",
+        "longDescription": "Svaki ponedeljak od 19h – veče društvenih igara! Pridruži se ekipi i igraj uz piće i dobro društvo.",
+        "image": "/image/drustvene_igre_vece.jpg",
+        "keyWords": [
+          "društvene igre",
+          "ponedeljak",
+          "zabava",
+          "druženje",
+          "igre"
+        ],
+        "content": [
+          "<h2>Veče društvenih igara – svakog ponedeljka u 19h</h2>",
+          "<p>🎲 Ljubitelj si društvenih igara? Onda ne propusti <strong>ponedeljak veče od 19h</strong>.</p>",
+          "<p>Igraj igre iz našeg asortimana, upoznaj nove ljude i uživaj u prijatnom ambijentu!</p>"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Veče Catan-a – svake nedelje od 18h",
+        "shortDescription": "Nedeljom od 18h – okupljanje uz kultnu društvenu igru Catan. Dođi i igraj!",
+        "longDescription": "Veče Catana je prilika da testiraš svoje strateške veštine i upoznaš zaljubljenike u popularnu igru!",
+        "image": "/image/catan_vece.jpg",
+        "keyWords": [
+          "catan",
+          "društvene igre",
+          "strategija",
+          "nedelja",
+          "zabava",
+          "druženje"
+        ],
+        "content": [
+          "<h2>Veče Catan-a – svake nedelje od 18h</h2>",
+          "<p>🌍 Nedeljno okupljanje uz <strong>Catan</strong> počinje u <strong>18h</strong> – mesto za strateške mislioce i ljubitelje igre!</p>",
+          "<p>Bilo da si veteran ili početnik, atmosfera je opuštena, zabavna i otvorena za sve!</p>"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Zašto je Joker Caffe Bar najbolji za bilijar u Novom Sadu",
+        "shortDescription": "Zašto je Joker Caffe Bar najbolji za bilijar u Novom Sadu? – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Zašto je Joker Caffe Bar najbolji za bilijar u Novom Sadu? u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_7.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "bilijar",
+          "bilijar Novi Sad",
+          "trening bilijar",
+          "gde na bilijar Novi Sad"
+        ],
+        "content": [
+          "<h2>Zašto je Joker Caffe Bar najbolji za bilijar u Novom Sadu?</h2>",
+          "<p>Zašto je Joker Caffe Bar najbolji za bilijar u Novom Sadu? u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Pikado izazov u Novom Sadu – mesto gde se okupljaju najbolji",
+        "shortDescription": "Pikado izazov u Novom Sadu – mesto gde se okupljaju najbolji – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Pikado izazov u Novom Sadu – mesto gde se okupljaju najbolji u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_8.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "pikado",
+          "pikado Novi Sad",
+          "trening pikado",
+          "gde na pikado Novi Sad"
+        ],
+        "content": [
+          "<h2>Pikado izazov u Novom Sadu – mesto gde se okupljaju najbolji</h2>",
+          "<p>Pikado izazov u Novom Sadu – mesto gde se okupljaju najbolji u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Dobar provod u Novom Sadu Joker Caffe Bar zna recept",
+        "shortDescription": "Dobar provod u Novom Sadu? Joker Caffe Bar zna recept! – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Dobar provod u Novom Sadu? Joker Caffe Bar zna recept! u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_9.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "zabava Novi Sad",
+          "gde izaći Novi Sad",
+          "jeftini izlazak",
+          "opustena atmosfera"
+        ],
+        "content": [
+          "<h2>Dobar provod u Novom Sadu Joker Caffe Bar zna recept</h2>",
+          "<p>Dobar provod u Novom Sadu? Joker Caffe Bar zna recept! u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Karaoke veče koje se pamti – pesma, smeh i piće",
+        "shortDescription": "Karaoke veče koje se pamti – pesma, smeh i piće – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Karaoke veče koje se pamti – pesma, smeh i piće u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_10.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "karaoke",
+          "karaoke veče",
+          "zabava Novi Sad"
+        ],
+        "content": [
+          "<h2>Karaoke veče koje se pamti – pesma, smeh i piće</h2>",
+          "<p>Karaoke veče koje se pamti – pesma, smeh i piće u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Teambuilding u Joker Caffe Baru – jačanje tima uz igru i smeh",
+        "shortDescription": "Teambuilding u Joker Caffe Baru – jačanje tima uz igru i smeh – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Teambuilding u Joker Caffe Baru – jačanje tima uz igru i smeh u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_11.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "teambuilding Novi Sad",
+          "bilijar",
+          "pikado",
+          "karaoke",
+          "društvene igre"
+        ],
+        "content": [
+          "<h2>Teambuilding u Joker Caffe Baru – jačanje tima uz igru i smeh</h2>",
+          "<p>Teambuilding u Joker Caffe Baru – jačanje tima uz igru i smeh u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Društvene igre u Jokeru – opušteno veče za sve uzraste",
+        "shortDescription": "Društvene igre u Jokeru – opušteno veče za sve uzraste – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Društvene igre u Jokeru – opušteno veče za sve uzraste u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/drustvene_igre.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "društvene igre Novi Sad",
+          "gde igrati društvene igre",
+          "opustena atmosfera"
+        ],
+        "content": [
+          "<h2>Društvene igre u Jokeru – opušteno veče za sve uzraste</h2>",
+          "<p>Društvene igre u Jokeru – opušteno veče za sve uzraste u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Beerpong izazov svakog vikenda – osvoji pivo i prestiž!",
+        "shortDescription": "Beerpong izazov svakog vikenda – osvoji pivo i prestiž! – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Beerpong izazov svakog vikenda – osvoji pivo i prestiž! u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_13.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "beerpong Novi Sad",
+          "zabava Novi Sad",
+          "jeftine cene pića"
+        ],
+        "content": [
+          "<h2>Beerpong izazov svakog vikenda – osvoji pivo i prestiž!</h2>",
+          "<p>Beerpong izazov svakog vikenda – osvoji pivo i prestiž! u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Trening bilijara za početnike i rekreativce",
+        "shortDescription": "Trening bilijara za početnike i rekreativce – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Trening bilijara za početnike i rekreativce u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_14.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "trening bilijar",
+          "bilijar Novi Sad",
+          "amaterski turnir"
+        ],
+        "content": [
+          "<h2>Trening bilijara za početnike i rekreativce</h2>",
+          "<p>Trening bilijara za početnike i rekreativce u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Trening pikada – preciznost i zabava u opuštenom ambijentu",
+        "shortDescription": "Trening pikada – preciznost i zabava u opuštenom ambijentu – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Trening pikada – preciznost i zabava u opuštenom ambijentu u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_15.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "trening pikado",
+          "pikado Novi Sad",
+          "druženje"
+        ],
+        "content": [
+          "<h2>Trening pikada – preciznost i zabava u opuštenom ambijentu</h2>",
+          "<p>Trening pikada – preciznost i zabava u opuštenom ambijentu u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Amaterski turniri u Jokeru – svi su pobednici!",
+        "shortDescription": "Amaterski turniri u Jokeru – svi su pobednici! – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Amaterski turniri u Jokeru – svi su pobednici! u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_16.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "amaterski turnir",
+          "bilijar",
+          "pikado",
+          "nagrade",
+          "zabava"
+        ],
+        "content": [
+          "<h2>Amaterski turniri u Jokeru – svi su pobednici!</h2>",
+          "<p>Amaterski turniri u Jokeru – svi su pobednici! u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 17,
+        "title": "Gde izaći u Novom Sadu uz malo para i mnogo zabave",
+        "shortDescription": "Gde izaći u Novom Sadu uz malo para i mnogo zabave? – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Gde izaći u Novom Sadu uz malo para i mnogo zabave? u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_17.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "jeftini izlazak",
+          "gde izaći Novi Sad",
+          "Joker Caffe Bar"
+        ],
+        "content": [
+          "<h2>Gde izaći u Novom Sadu uz malo para i mnogo zabave</h2>",
+          "<p>Gde izaći u Novom Sadu uz malo para i mnogo zabave? u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Najbolji izlazak sa ekipom – igre, piće i atmosfera",
+        "shortDescription": "Najbolji izlazak sa ekipom – igre, piće i atmosfera – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Najbolji izlazak sa ekipom – igre, piće i atmosfera u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_18.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "gde na bilijar Novi Sad",
+          "gde na pikado Novi Sad",
+          "zabava Novi Sad"
+        ],
+        "content": [
+          "<h2>Najbolji izlazak sa ekipom – igre, piće i atmosfera</h2>",
+          "<p>Najbolji izlazak sa ekipom – igre, piće i atmosfera u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Jeftine cene pića i dobra muzika – dobitna kombinacija",
+        "shortDescription": "Jeftine cene pića i dobra muzika – dobitna kombinacija – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Jeftine cene pića i dobra muzika – dobitna kombinacija u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_19.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "jeftine cene pića",
+          "opustena atmosfera",
+          "karaoke"
+        ],
+        "content": [
+          "<h2>Jeftine cene pića i dobra muzika – dobitna kombinacija</h2>",
+          "<p>Jeftine cene pića i dobra muzika – dobitna kombinacija u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Večeri u Joker Caffe Baru – kada svaki dan ima svoju temu",
+        "shortDescription": "Večeri u Joker Caffe Baru – kada svaki dan ima svoju temu – doživi drugačiji izlazak u Novom Sadu!",
+        "longDescription": "Večeri u Joker Caffe Baru – kada svaki dan ima svoju temu u Joker Caffe Baru okuplja ljude svih generacija. Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre. Pored vrhunske zabave, očekuju te niske cene pića i topla, opuštena atmosfera u centru Novog Sada.",
+        "image": "/images/post_20.jpg",
+        "keyWords": [
+          "Joker Caffe Bar",
+          "Novi Sad",
+          "zabava Novi Sad",
+          "bilijar",
+          "pikado",
+          "karaoke",
+          "igre"
+        ],
+        "content": [
+          "<h2>Večeri u Joker Caffe Baru – kada svaki dan ima svoju temu</h2>",
+          "<p>Večeri u Joker Caffe Baru – kada svaki dan ima svoju temu u Joker Caffe Baru okuplja ljude svih generacija.</p>",
+          "<p>🎯 Pridruži se zabavi i otkrij zašto je naš lokal omiljeno mesto za bilijar, pikado, karaoke, beerpong i društvene igre.</p>",
+          "<p>💸 Niske cene pića, prijatna atmosfera i raznovrsni programi čine nas idealnim mestom za opušten izlazak.</p>",
+          "<ul><li>🎱 Bilijar i pikado turniri</li><li>🎤 Karaoke i team building večeri</li><li>🍻 Beerpong i studentske žurke</li></ul>",
+          "<p>📍 Poseti nas i doživi najbolje veče u Novom Sadu!</p>"
+        ]
+      }
+    ]
+  }
